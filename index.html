@@ -6,7 +6,15 @@
 <script src='three.js'></script>
 <script src='OrbitControls.js'></script>
 <script src='script.js'></script>
-Hakdog
+<div id='hakdog'>
+  Hakdog
+</div>
+  <script>
+    hakdog=document.getElementById('hakdog');
+document.addEventListener('keydown',function(v){
+  hakdog.innerHTML=v.key;
+});
+  </script>
 </body>
 
 </html>
