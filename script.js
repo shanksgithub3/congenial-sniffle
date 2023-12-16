@@ -16,7 +16,7 @@ controls=new THREE.OrbitControls(camera,renderer.domElement);
 controls.enablePan=true;controls.minDistance=10,controls.maxDistance=10;
 controls.target.set(0,1,1);
 camera.fov=60;
-camera.position.set(0,1,1);
+camera.position.set(0,.5,1);
 
 
 
